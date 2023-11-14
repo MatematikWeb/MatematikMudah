@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Matematik Mudah</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url(background\ 2.jpg);
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 20px;
+    }
+
+    .button-group {
+      text-align: center;
+    }
+
+    .button-group h2 {
+      margin-bottom: 10px;
+    }
+
+    .button-group button {
+      padding: 25px 50px;
+      margin: 0 10px;
+      font-size: 24px;
+      background-color: #343148ff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      width: 200px;
+      box-sizing: border-box;
+    }
+
+    .button-group button:hover {
+      background-color: #45a049;
+    }
+
+    .side-by-side {
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <h1>Haaa Nak Belajar Ape tu....Sile Pilih </h1>
+  <div class="button-container">
+    <div class="button-group">
+      <h2>Tingkatan 4</h2>
+      <button id="btn1">Matematik</button>
+      <button id="btn2">Matematik Tambahan</button>
+    </div>
+  </div>
+  <div class="button-container">
+    <div class="button-group">
+      <h2>Tingkatan 5</h2>
+      <button id="btn3" class="side-by-side">Matematik Tambahan</button>
+      <button id="btn4" class="side-by-side">Matematik</button>
+    </div>
+  </div>
+
+  <script>
+    // JavaScript code goes here
+    var btn1 = document.getElementById("btn1");
+    var btn2 = document.getElementById("btn2");
+    var btn3 = document.getElementById("btn3");
+    var btn4 = document.getElementById("btn4");
+
+    btn1.addEventListener("click", function() {
+      window.location.href = "file:///C:/Users/Ahmad%20Muaz/Desktop/masterclass/math%20f4.html"; // Replace with your desired URL
+    });
+
+    btn2.addEventListener("click", function() {
+      window.location.href = "file:///C:/Users/Ahmad%20Muaz/Desktop/masterclass/addmath%20f4.html"; // Replace with your desired URL
+    });
+
+    btn3.addEventListener("click", function() {
+      window.location.href = "file:///C:/Users/Ahmad%20Muaz/Desktop/masterclass/addmath%20f5.html"; // Replace with your desired URL
+    });
+
+    btn4.addEventListener("click", function() {
+      window.location.href = "file:///C:/Users/Ahmad%20Muaz/Desktop/masterclass/math%20f5.html"; // Replace with your desired URL
+    });
+  </script>
+</body>
+</html>
