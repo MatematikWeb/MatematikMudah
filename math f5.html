@@ -49,9 +49,15 @@
             transform: scale(1.05);
         }
 
-        /* Additional styling for the new buttons */
-        .pdf-button {
+      /* Additional styling for the new buttons */
+        .link-button {
             background-color: #E63946;
+            text-decoration: none;
+            color: white;
+            display: inline-block;
+            padding: 20px 40px;
+            margin: 10px;
+            border-radius: 5px;
         }
     </style>
 </head>
@@ -66,8 +72,8 @@
         <button class="button" onclick="window.location.href='b6 t5.html'">BAB 6</button>
         <button class="button" onclick="window.location.href='b7 t5.html'">BAB 7</button>
         <button class="button" onclick="window.location.href='b8 t5.html'">BAB 8</button>
-        <button class="button pdf-button" onclick="window.location.href='notamathf5.pdf'">NOTA</button>
-        <button class="button pdf-button" onclick="window.location.href='soalanmathf5.pdf'">SOALAN</button>
+        <a href="https://example.com/nota" class="button link-button">NOTA</a>
+        <a href="https://example.com/soalan" class="button link-button">SOALAN</a>
     </div>
 
     <script>
